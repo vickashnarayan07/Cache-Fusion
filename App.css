@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.App-header h1 {
+  font-size: 2.5em;
+  color: #ff8c00; /* Bright Orange */
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.content-section {
+  padding: 25px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-bottom: 2px solid #ff4500;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.content-section h2 {
+  color: #ff4500;
+  border-bottom: 2px solid #ff4500;
+  padding-bottom: 5px;
+  font-size: 1.8em;
+  text-transform: capitalize;
+}
+
+.content-section p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.simulation-section {
+  padding: 25px;
+  background-color: #ffffff;
+  border-top: 2px solid #ff4500;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.simulation-section input[type="text"] {
+  padding: 10px;
+  font-size: 1.2em;
+  width: 70%;
+  margin-bottom: 10px;
+  border: 2px solid #ff8c00;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.simulation-section input[type="text"]:focus {
+  border-color: #ff4500;
+}
+
+.simulation-section button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.simulation-section button:hover {
+  background-color: #357abd;
+}
+
+.write-policy-section {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.write-policy-section label {
+  margin-right: 30px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.write-through-options {
+  margin-bottom: 25px;
+}
+
+.write-through-options label {
+  margin-right: 25px;
+  font-size: 1.1em;
+}
+
+.cache-status {
+  margin-top: 25px;
+}
+
+.cache-status p {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.cache-status p.hit {
+  color: green;
+  background-color: #eaffea;
+}
+
+.cache-status p.miss {
+  color: red;
+  background-color: #ffeaea;
+}
+
+.cache-status p.latency {
+  font-size: 1em;
+  color: #1e90ff;
+}
+
+.cache-main-memory {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.cache-main-memory h3 {
+  color: #1e90ff;
+  font-size: 1.5em;
+}
+
+.cache-main-memory h4 {
+  color: #32cd32;
+  font-size: 1.3em;
+}
+
+.cache-main-memory ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cache-main-memory li {
+  background: #f0f8ff;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #87cefa;
+  font-size: 1.1em;
+}
+
+.cache-selector {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.cache-selector label {
+  margin-right: 25px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
